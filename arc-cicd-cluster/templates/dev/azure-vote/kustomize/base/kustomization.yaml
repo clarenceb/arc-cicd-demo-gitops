@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: dev
+
+images:
+  - name: acr27749.azurecr.io/azvote/azure-vote-front
+    newTag: 573abfa3a7f9f29698b27e1b75aa4f3db4fddaf5
+  - name: acr27749.azurecr.io/azvote/azure-vote-back
+    newTag: 573abfa3a7f9f29698b27e1b75aa4f3db4fddaf5
+resources:
+  - manifests.yaml
