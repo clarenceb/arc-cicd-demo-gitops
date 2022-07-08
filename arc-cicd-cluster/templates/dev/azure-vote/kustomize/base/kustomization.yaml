@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: acr27749.azurecr.io/azvote/azure-vote-front
-    newTag: 573abfa3a7f9f29698b27e1b75aa4f3db4fddaf5
+    newTag: 46913c2aa1a48ded7f62df4585ea7adc2785650e
   - name: acr27749.azurecr.io/azvote/azure-vote-back
-    newTag: 573abfa3a7f9f29698b27e1b75aa4f3db4fddaf5
+    newTag: 46913c2aa1a48ded7f62df4585ea7adc2785650e
 resources:
   - manifests.yaml
